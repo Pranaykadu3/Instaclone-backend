@@ -1,0 +1,30 @@
+=============================================================================================================
+1- cors
+
+CORS is a security feature that helps prevent malicious websites from stealing data or performing unauthorized actions on other websites.
+
+=============================================================================================================
+
+2. mongoose.set({strictQuery:true})
+
+When strictQuery is set to true, Mongoose will throw an error if a query parameter is passed that does not match any of the defined fields in the schema. In other words, any query parameter that is not explicitly defined in the schema will be rejected, and an error will be thrown.
+
+=============================================================================================================
+
+3. multer
+
+multer is a middleware in Node.js used for handling multipart/form-data, which is typically used for uploading files. multer makes it easy to handle file uploads by parsing the multipart/form-data request body and storing the files in a specified location on the server.
+
+When you use multer, you can specify various options such as the storage location, file size limit, and allowed file types. Once a file has been uploaded, multer passes control to the next middleware in the chain, allowing you to process the uploaded files as needed.
+
+Overall, multer simplifies the process of handling file uploads in Node.js and makes it easy to integrate file upload functionality into your web applications.
+
+=============================================================================================================
+
+4. uuid
+
+UUID stands for Universally Unique Identifier, and it is a unique identifier that is used to identify resources in computer systems. A UUID is a long string of letters and numbers that is guaranteed to be unique across different systems and platforms.
+
+UUIDs are commonly used in software development to assign unique IDs to things like records in a database, hardware components, or user sessions in a web application. 
+
+=============================================================================================================
